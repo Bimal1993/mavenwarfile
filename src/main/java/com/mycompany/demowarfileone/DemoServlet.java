@@ -24,5 +24,6 @@ public class DemoServlet extends HttpServlet
         response.setContentType("text/html");
         PrintWriter out=response.getWriter();
         out.print("hello");
+        out.print("hello");
     }
 }
